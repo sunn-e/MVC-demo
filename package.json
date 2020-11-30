@@ -1,0 +1,29 @@
+{
+  "name": "MVC-demo",
+  "version": "1.0.0",
+  "description": "npm init -y",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunn-e/MVC-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunn-e/MVC-demo/issues"
+  },
+  "homepage": "https://github.com/sunn-e/MVC-demo#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
