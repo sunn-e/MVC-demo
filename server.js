@@ -79,12 +79,14 @@ app.get("/scrape", function (req, res) {
               console.log(err);
             } else {
               // otherwise, log the inserted data
+              //will remove before production,good enough for demo.
               console.log(inserted);
             }
           }
         );
         // if there are 10 articles, then return the callback to the frontend
         console.log(i);
+        //keeping it for 5 for now.
         if (i === 5) {
           //res.redirect("/");
           return res.sendStatus(200);
